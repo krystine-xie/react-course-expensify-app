@@ -1,5 +1,5 @@
 import React from 'react'; 
-import ExpenseDashboardPage from '../../components/ExpenseDashboardPage'; 
+import ExpenseDashboardPage from '../../components/ExpenseDashBoardPage'; 
 import { shallow } from 'enzyme'; 
 
 test('should render expense dashboard correctly', () => {
