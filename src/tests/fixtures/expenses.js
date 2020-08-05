@@ -3,7 +3,7 @@ import moment from 'moment';
 export default [{
     id: '1',
     description: 'Gum',
-    note: "",
+    note: '',
     amount: 350,
     createdAt: 0
 }, {
