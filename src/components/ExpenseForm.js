@@ -5,12 +5,11 @@ import { SingleDatePicker } from 'react-dates';
 
 // date stuff  
 const now = moment();
-console.log(now.format('Do MMM, YYYY'));
+// console.log(now.format('Do MMM, YYYY'));
 
 export default class ExpenseForm extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
             description: props.expense ? props.expense.description : '',
             note: props.expense ? props.expense.note : '',
